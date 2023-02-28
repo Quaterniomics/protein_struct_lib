@@ -8,3 +8,5 @@ We are making a structural library in order to advance bioinformatics. By having
 
 How are we making the Structural Library?
 In our case, we are making the structural library by generating surface descriptors for a set of protein structures and storing them in a CSV file. These descriptors are generated using PyMOL to visualize and extract the surface of the protein structures, and OpenBabel to calculate a set of surface descriptors that capture information about the chemical composition and shape of the surface. Once the descriptors are calculated, they can be stored in a CSV file and used as a basis for comparing new protein structures against the known ones. When a new protein structure is introduced, we can generate its surface descriptors and compare them to the descriptors in the structural library to identify the closest matches. This can help us to infer potential functional or structural similarities between the new protein structure and the known ones.
+
+https://imgur.com/JGOGEPk
